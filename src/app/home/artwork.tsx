@@ -18,13 +18,13 @@ const artworkItems = [
     title: "The Abyss",
     description:
       "The dark and mysterious depths beneath Hallownest, home to ancient horrors and the very essence of the Void.",
-    image: "/artwork/image.png",
+    image: "https://i.ytimg.com/vi/4XxRUH8DOIQ/maxresdefault.jpg",
   },
   {
     title: "Crystal Peak",
     description:
       "A shimmering mountain riddled with sharp crystals and crystalized creatures, featuring intricate platforming challenges and stunning beauty.",
-    image: "/artwork/image.png",
+    image: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/hollow-knight-wiki/6/6a/Crystal_Peak_13.png?width=1280",
   },
   {
     title: "Dirtmouth",

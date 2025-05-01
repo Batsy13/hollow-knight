@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Cinzel, Geist, Geist_Mono, Montserrat } from "next/font/google";
 import "./globals.css";
 import { Footer } from "./footer";
+import { Header } from "./header";
 
 const montserrat = Montserrat({
   variable: "--montserrat",

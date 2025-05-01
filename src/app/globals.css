@@ -113,10 +113,21 @@
   --sidebar-ring: oklch(0.556 0 0);
 }
 
+@theme {
+  --color-hollow-black: '#0A0A0B';
+  --color-hollow-darkgray: '#1A1B1E';
+  --color-hollow-gray: '#2E3138';
+  --color-hollow-white: '#FFFFFF';
+  --color-hollow-pale: '#E1DFEA';
+  --color-hollow-accent: '#4FB5C4';
+}
+
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }

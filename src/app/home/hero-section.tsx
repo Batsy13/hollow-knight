@@ -1,37 +1,71 @@
-"use client"
+"use client";
 
 import Image from "next/image";
-
-import bg from "../../../public/background.jpg";
+import knight from "../../../public/home/knight.svg";
+import hollowtitle from "../../../public/home/hollow-knight.svg";
+import bg from "../../../public/home/background.jpg";
+import { motion } from "motion/react";
+import { Header } from "../header";
 
 export const HeroSection = () => {
   return (
     <main
-      className="bg-no-repeat bg-cover bg-center h-screen"
+      className="relative bg-no-repeat bg-cover bg-center h-screen"
       style={{
         background: `linear-gradient(180deg,rgba(0, 0, 0, 0.29) 0%, rgba(0, 0, 0, 1) 100%), url(${bg.src})`,
       }}
     >
-      <header className="h-[100px] w-[90%] 2xl:w-full max-w-[1400px] mx-auto flex py-2.5 items-center justify-between">
-        <div>
+      <Header />
+      <div className="absolute top-1/2 left-1/2 -translate-1/2 flex flex-col items-center justify-center">
+        <motion.div
+          className="absolute"
+          initial={{ y: -10, opacity: 0 }}
+          animate={{
+            y: [0, -10, 0],
+            opacity: 1,
+          }}
+          transition={{
+            y: {
+              repeat: Infinity,
+              duration: 4,
+              ease: "easeInOut",
+            },
+            duration: 3,
+          }}
+        >
           <Image
-            src="https://cdn2.steamgriddb.com/icon/602d1305678a8d5fdb372271e980da6a.ico"
-            alt="Logo Hollow Knight"
-            width={65}
-            height={70}
-            unoptimized
+            src={knight.src}
+            alt="Knight"
+            width={710}
+            height={696}
+            className=""
           ></Image>
-        </div>
-        <nav>
-          <ul className="flex gap-14 text-[#8A8F98]">
-            <li className="cursor-pointer hover:text-[#F5F5F5]">The Knight</li>
-            <li className="cursor-pointer hover:text-[#F5F5F5]">Achievements</li>
-            <li className="cursor-pointer hover:text-[#F5F5F5]">Charms</li>
-            <li className="cursor-pointer hover:text-[#F5F5F5]">Enemies</li>
-          </ul>
-        </nav>
-        <button className="bg-[#F5F5F5] rounded-[5px] text-[#181818] px-6 py-2 cursor-pointer font-bold">Map</button>
-      </header>
+        </motion.div>
+        <motion.div
+          className="translate-y-20 sm:translate-y-30 md:translate-y-40 lg:translate-y-64"
+          initial={{ y: -10, opacity: 0 }}
+          animate={{
+            y: [0, 10, 0],
+            opacity: 1,
+          }}
+          transition={{
+            y: {
+              repeat: Infinity,
+              duration: 1.5,
+              ease: "easeInOut",
+            },
+            duration: 3,
+            delay: 1
+          }}
+        >
+          <Image
+            src={hollowtitle.src}
+            alt="Title"
+            width={1062}
+            height={421}
+          ></Image>
+        </motion.div>
+      </div>
     </main>
   );
 };
