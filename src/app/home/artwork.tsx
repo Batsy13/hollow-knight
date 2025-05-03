@@ -10,11 +10,6 @@ import { ArtworkItem } from "@/components/artwork-item";
 
 const artworkItems = [
   {
-    title: "Nimis",
-    description: "Nimis nimis",
-    image: "/artwork/image.png",
-  },
-  {
     title: "The Abyss",
     description:
       "The dark and mysterious depths beneath Hallownest, home to ancient horrors and the very essence of the Void.",

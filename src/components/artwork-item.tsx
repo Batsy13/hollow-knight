@@ -15,7 +15,7 @@ export const ArtworkItem = ({
 }: ArtworkItemProps) => {
   return (
     <Card
-      className="flex items-start bg-transparent justify-end p-6 w-full h-full overflow-hidden bg-cover bg-no-repeat bg-center"
+      className="flex items-start bg-transparent justify-end w-full h-full overflow-hidden bg-cover bg-no-repeat bg-center p-0"
       style={{ backgroundImage: `url(${image})` }}
     >
       <CardContent className="py-4 flex flex-col gap-2">
