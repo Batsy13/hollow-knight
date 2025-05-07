@@ -30,10 +30,10 @@ export const Header = () => {
             <Link href={"/knight"}>The Knight</Link>
           </li>
           <li className="cursor-pointer hover:text-[#F5F5F5]">
-            <Link href={"/achievements"}>Achievements</Link>
+            <Link href={"/charms"}>Charms</Link>
           </li>
           <li className="cursor-pointer hover:text-[#F5F5F5]">
-            <Link href={"/charms"}>Charms</Link>
+          <Link href={"/achievements"}>Achievements</Link>
           </li>
           <li className="cursor-pointer hover:text-[#F5F5F5]">
             <Link href={"/enemies"}>Enemies</Link>
@@ -76,13 +76,13 @@ export const Header = () => {
                 </Link>
               </li>
               <li className="cursor-pointer hover:text-[#F5F5F5]">
-                <Link href={"/achievements"} onClick={toggleMobileMenu}>
-                  Achievements
+              <Link href={"/charms"} onClick={toggleMobileMenu}>
+                  Charms
                 </Link>
               </li>
               <li className="cursor-pointer hover:text-[#F5F5F5]">
-                <Link href={"/charms"} onClick={toggleMobileMenu}>
-                  Charms
+                <Link href={"/achievements"} onClick={toggleMobileMenu}>
+                  Achievements
                 </Link>
               </li>
               <li className="cursor-pointer hover:text-[#F5F5F5]">

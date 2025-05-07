@@ -122,7 +122,6 @@
   --color-hollow-accent: '#4FB5C4';
 }
 
-
 @layer base {
   * {
     @apply border-border outline-ring/50;
@@ -131,4 +130,24 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+body {
+  scrollbar-width: thin;
+  scrollbar-color: #ccc transparent;
+  
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: black;
 }
