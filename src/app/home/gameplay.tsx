@@ -1,5 +1,4 @@
-import { GameplayItem } from "@/components/gameplay-item";
-import { Card, CardContent } from "@/components/ui/card";
+import { GameplayItem } from "@/app/home/components/gameplay-item";
 import {
   Carousel,
   CarouselContent,

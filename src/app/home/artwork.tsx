@@ -6,7 +6,7 @@ import {
   CarouselPrevious,
   CarouselNext,
 } from "@/components/ui/artwork-carousel";
-import { ArtworkItem } from "@/components/artwork-item";
+import { ArtworkItem } from "@/app/home/components/artwork-item";
 
 const artworkItems = [
   {

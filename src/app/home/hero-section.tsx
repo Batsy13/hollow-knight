@@ -38,7 +38,7 @@ export const HeroSection = () => {
             alt="Knight"
             width={710}
             height={696}
-            className=""
+            className="translate-x-3 xl:w-[600px] xl:h-[602px] 2xl:w-auto 2xl:h-auto"
           ></Image>
         </motion.div>
         <motion.div

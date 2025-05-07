@@ -1,10 +1,10 @@
-import { AboutCard } from "@/components/about-card";
+import { AboutCard } from "@/app/home/components/about-card";
 import { Home, Sword } from "lucide-react";
 
 export const About = () => {
   return (
     <section className="min-h-screen w-full py-10 px-4 bg-black">
-      <div className="w-[90%] m-auto xl:w-full text-center max-w-[1000px] mb-8">
+      <div className="w-[90%] m-auto text-center max-w-[1000px] xl:max-w-[1400px] mb-8">
         <h2 className="text-[#FFF] text-[28px] md:text-[32px] font-bold font-cinzel mb-4">
           What Awaits You?
         </h2>

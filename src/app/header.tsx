@@ -1,5 +1,6 @@
 "use client";
 
+import { LoadingHeader } from "@/components/loading-header";
 import { Menu, X } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -13,7 +14,7 @@ export const Header = () => {
   };
 
   return (
-    <header className="h-[100px] w-[90%] 2xl:w-full max-w-[1400px] mx-auto flex py-2.5 items-center justify-between">
+    <header className="h-[100px] w-[90%] 2xl:w-full max-w-[1400px] mx-auto flex py-2.5 items-center justify-between z-50">
       <Link href={"/"} className="flex-shrink-0">
         <Image
           src="https://cdn2.steamgriddb.com/icon/602d1305678a8d5fdb372271e980da6a.ico"
@@ -33,7 +34,7 @@ export const Header = () => {
             <Link href={"/charms"}>Charms</Link>
           </li>
           <li className="cursor-pointer hover:text-[#F5F5F5]">
-          <Link href={"/achievements"}>Achievements</Link>
+            <Link href={"/achievements"}>Achievements</Link>
           </li>
           <li className="cursor-pointer hover:text-[#F5F5F5]">
             <Link href={"/enemies"}>Enemies</Link>
@@ -76,7 +77,7 @@ export const Header = () => {
                 </Link>
               </li>
               <li className="cursor-pointer hover:text-[#F5F5F5]">
-              <Link href={"/charms"} onClick={toggleMobileMenu}>
+                <Link href={"/charms"} onClick={toggleMobileMenu}>
                   Charms
                 </Link>
               </li>

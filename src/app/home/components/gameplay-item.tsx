@@ -1,7 +1,7 @@
 'use client'
 
 import Image from "next/image";
-import { Card, CardContent } from "./ui/card";
+import { Card, CardContent } from "../../../components/ui/card";
 import { useRef, useEffect } from "react";
 
 type GameplayItemProps = {

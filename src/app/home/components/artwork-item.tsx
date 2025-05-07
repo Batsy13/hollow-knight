@@ -1,4 +1,4 @@
-import { Card, CardContent } from "./ui/card";
+import { Card, CardContent } from "../../../components/ui/card";
 import image2 from "../../public/artwork/image.png";
 import { url } from "inspector";
 
