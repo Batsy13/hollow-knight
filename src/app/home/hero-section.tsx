@@ -3,7 +3,7 @@
 import Image from "next/image";
 import knight from "../../../public/home/knight.svg";
 import hollowtitle from "../../../public/home/hollow-knight.svg";
-import bg from "../../../public/home/background.jpg";
+import bg from "../../../public/home/background.webp";
 import { motion } from "motion/react";
 import { Header } from "../header";
 
