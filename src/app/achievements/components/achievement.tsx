@@ -13,7 +13,7 @@ export const Achievements = ({
 
     return (
         <div
-            className={cn("p-4 bg-[rgba(11,17,22,0.3)] rounded-[10px] shadow-[0_4px_30px_#00000020] backdrop-blur-[5px] border border-[rgba(10,31,51,0.3)] hover:scale-[102%] transition-all duration-200")}
+            className={cn("p-4 bg-[#191918] rounded-[10px] backdrop-blur-[5px] hover:scale-[102%] transition-all duration-200")}
             onClick={() => onOpenDetails(achievement)}
         >
             <div className="flex justify-between items-center">
