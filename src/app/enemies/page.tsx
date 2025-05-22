@@ -13,29 +13,28 @@ export default function EnemiesPage() {
   console.log(search, filteredEnemies, Enemies);
 
   return (
-    <div className="min-h-screen w-full bg-black">
+    <div className="min-h-screen w-full bg-[#0a0a0a]">
       <Header />
       <main className="w-[90%] m-auto xl:w-full text-center py-10 px-4 h-fit">
         <h1 className="text-[#FFF] text-[32px] font-bold font-cinzel">
           Enemies
         </h1>
         <p className="max-w-[1400px] m-auto mb-8">
-          Track your progress through Hallownest with these challenging feats of
-          skill and exploration.
+          Test your skill against the diverse and dangerous creatures inhabiting Hallownest.
         </p>
         <input
           type="text"
           placeholder="Grimm..."
-          className="border border-[#505050] rounded-[8px] px-4 py-2 w-full max-w-[1400px] focus:outline-0"
+          className="border border-[#E4E4E4] rounded-[8px] px-4 py-2 w-full max-w-[1400px] focus:outline-0"
           value={search}
           onChange={(event) => setSearch(event.target.value)}
         />
 
-        <ul className="grid grid-cols-5 gap-16 p-16 overflow-hidden">
+        <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-16 p-16 overflow-hidden">
           {filteredEnemies.map((enemy) => (
             <li
               key={enemy.id}
-              className="border border-[#505050] p-8 rounded-[8px] h-[400px]"
+              className="border border-[#E4E4E4] flex items-end justify-center p-8 rounded-[20px] h-[400px] hover:shadow-[0_0_20px_#E4E4E4] hover:inset-shadow-[0_0_10px_#E4E4E4] hover:-translate-y-1 transition-all duration-300 ease-in-out"
             >
               <h2 className="text-[#FFF]">{enemy.name}</h2>
             </li>
