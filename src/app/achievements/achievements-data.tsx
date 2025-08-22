@@ -2,7 +2,7 @@ import { AchievementsProps } from "../types/achievements";
 
 export const achievementsAPI: AchievementsProps[] = [
   {
-    icon: "/achievements/Achievement_Charmed.png",
+    icon: "/achievements/Achievement_Charmed.webp",
     name: "CHARMED",
     percent: "75.6",
     description: "Acquire your first Charm",
@@ -11,7 +11,7 @@ export const achievementsAPI: AchievementsProps[] = [
     location: ["Forgotten Crossroads", "City of Tears", "Ancient Basin"],
   },
   {
-    icon: "/achievements/Achievement_Falsehood.png",
+    icon: "/achievements/Achievement_Falsehood.webp",
     name: "FK_DEFEAT",
     percent: "69.8",
     description: "Defeat the False Knight.",
@@ -20,7 +20,7 @@ export const achievementsAPI: AchievementsProps[] = [
     location: ["Forgotten Crossroads"],
   },
   {
-    icon: "/achievements/Achievement_Test_of_Resolve.png",
+    icon: "/achievements/Achievement_Test_of_Resolve.webp",
     name: "HORNET_1",
     percent: "60.9",
     description: "Defeat Hornet in Greenpath.",
@@ -29,7 +29,7 @@ export const achievementsAPI: AchievementsProps[] = [
     location: ["Greenpath"],
   },
   {
-    icon: "/achievements/Achievement_Connection.png",
+    icon: "/achievements/Achievement_Connection.webp",
     name: "STAG_STATION_HALF",
     percent: "47.1",
     description: "Open half of the Stag Stations.",
@@ -47,7 +47,7 @@ export const achievementsAPI: AchievementsProps[] = [
     ],
   },
   {
-    icon: "/achievements/Achievement_Protected.png",
+    icon: "/achievements/Achievement_Protected.webp",
     name: "PROTECTED",
     percent: "45.8",
     description: "Acquire 4 Mask Shards",
@@ -56,7 +56,7 @@ export const achievementsAPI: AchievementsProps[] = [
     location: ["Forgotten Crossroads", "Greenpath", "City of Tears", "Fungal Wastes"],
   },
   {
-    icon: "/achievements/Achievement_Illumination.png",
+    icon: "/achievements/Achievement_Illumination.webp",
     name: "SOUL_MASTER_DEFEAT",
     percent: "44.8",
     description: "Defeat the Soul Master.",
@@ -65,7 +65,7 @@ export const achievementsAPI: AchievementsProps[] = [
     location: ["City of Tears"],
   },
   {
-    icon: "/achievements/Achievement_Respect.png",
+    icon: "/achievements/Achievement_Respect.webp",
     name: "MANTIS_LORDS",
     percent: "44.3",
     description: "Defeat the Mantis Lords.",
@@ -74,7 +74,7 @@ export const achievementsAPI: AchievementsProps[] = [
     location: ["Fungal Wastes"],
   },
   {
-    icon: "/achievements/Achievement_Soulful.png",
+    icon: "/achievements/Achievement_Soulful.webp",
     name: "SOULFUL",
     percent: "41.7",
     description: "Acquire 3 Vessel Fragments",
@@ -83,7 +83,7 @@ export const achievementsAPI: AchievementsProps[] = [
     location: ["Forgotten Crossroads", "City of Tears", "Ancient Basin"],
   },
   {
-    icon: "/achievements/Achievement_Honour.png",
+    icon: "/achievements/Achievement_Honour.webp",
     name: "DUNG_DEFENDER",
     percent: "40.6",
     description: "Defeat the Dung Defender.",
@@ -92,7 +92,7 @@ export const achievementsAPI: AchievementsProps[] = [
     location: ["Royal Waterways"],
   },
   {
-    icon: "/achievements/Achievement_Release.png",
+    icon: "/achievements/Achievement_Release.webp",
     name: "BROKEN_VESSEL",
     percent: "39.7",
     description: "Defeat the Broken Vessel.",
@@ -101,7 +101,7 @@ export const achievementsAPI: AchievementsProps[] = [
     location: ["Ancient Basin"],
   },
   {
-    icon: "/achievements/Achievement_Enchanted.png",
+    icon: "/achievements/Achievement_Enchanted.webp",
     name: "ENCHANTED",
     percent: "38.1",
     description: "Acquire half of Hallownest's Charms",
@@ -123,7 +123,7 @@ export const achievementsAPI: AchievementsProps[] = [
     ],
   },
   {
-    icon: "/achievements/Achievement_Beast.png",
+    icon: "/achievements/Achievement_Beast.webp",
     name: "BEAST",
     percent: "36.7",
     description: "Destroy Herrah the Beast",
@@ -132,7 +132,7 @@ export const achievementsAPI: AchievementsProps[] = [
     location: ["City of Tears"],
   },
   {
-    icon: "/achievements/Achievement_Grubfriend.png",
+    icon: "/achievements/Achievement_Grubfriend.webp",
     name: "GRUBFRIEND",
     percent: "36.6",
     description: "Rescue half of the Grubs.",
@@ -154,7 +154,7 @@ export const achievementsAPI: AchievementsProps[] = [
     ],
   },
   {
-    icon: "/achievements/Achievement_Proof_of_Resolve.png",
+    icon: "/achievements/Achievement_Proof_of_Resolve.webp",
     name: "HORNET_2",
     percent: "36.6",
     description: "Defeat Hornet in Kingdom's Edge.",
@@ -163,7 +163,7 @@ export const achievementsAPI: AchievementsProps[] = [
     location: ["Kingdom's Edge"],
   },
   {
-    icon: "/achievements/Achievement_Attunement.png",
+    icon: "/achievements/Achievement_Attunement.webp",
     name: "ATTUNEMENT",
     percent: "36.2",
     description: "Collect 600 Essence",
@@ -172,7 +172,7 @@ export const achievementsAPI: AchievementsProps[] = [
     location: ["Kingdom's Edge"],
   },
   {
-    icon: "/achievements/Achievement_Warrior.png",
+    icon: "/achievements/Achievement_Warrior.webp",
     name: "COLOSSEUM_1",
     percent: "35.7",
     description: "Complete the Trial of the Warrior",
@@ -181,7 +181,7 @@ export const achievementsAPI: AchievementsProps[] = [
     location: ["Kingdom's Edge"],
   },
   {
-    icon: "/achievements/Achievement_Teacher.png",
+    icon: "/achievements/Achievement_Teacher.webp",
     name: "TEACHER",
     percent: "35.6",
     description: "Destroy Monomon the Teacher",
@@ -190,7 +190,7 @@ export const achievementsAPI: AchievementsProps[] = [
     location: ["Deepnest"],
   },
   {
-    icon: "/achievements/Achievement_Watcher.png",
+    icon: "/achievements/Achievement_Watcher.webp",
     name: "WATCHER",
     percent: "35.3",
     description: "Destroy Lurien the Watcher",
@@ -199,7 +199,7 @@ export const achievementsAPI: AchievementsProps[] = [
     location: ["City of Tears"],
   },
   {
-    icon: "/achievements/Achievement_Cartographer.png",
+    icon: "/achievements/Achievement_Cartographer.webp",
     name: "MAP",
     percent: "34.5",
     description: "Acquire a map of each area",
@@ -222,7 +222,7 @@ export const achievementsAPI: AchievementsProps[] = [
     ],
   },
   {
-    icon: "/achievements/Achievement_Conqueror.png",
+    icon: "/achievements/Achievement_Conqueror.webp",
     name: "COLOSSEUM_2",
     percent: "32.7",
     description: "Complete the Trial of the Conqueror",
@@ -231,7 +231,7 @@ export const achievementsAPI: AchievementsProps[] = [
     location: ["Kingdom's Edge"],
   },
   {
-    icon: "/achievements/Achievement_Hope.png",
+    icon: "/achievements/Achievement_Hope.webp",
     name: "STAG_STATION_ALL",
     percent: "31.4",
     description: "Open all of Hallownest's Stag Stations and discover the Stag Nest",
@@ -249,7 +249,7 @@ export const achievementsAPI: AchievementsProps[] = [
     ],
   },
   {
-    icon: "/achievements/Achievement_Execution.png",
+    icon: "/achievements/Achievement_Execution.webp",
     name: "TRAITOR_LORD",
     percent: "31.4",
     description: "Defeat the Traitor Lord.",
@@ -258,7 +258,7 @@ export const achievementsAPI: AchievementsProps[] = [
     location: ["Queen's Gardens"],
   },
   {
-    icon: "/achievements/Achievement_Obsession.png",
+    icon: "/achievements/Achievement_Obsession.webp",
     name: "COLLECTOR",
     percent: "29.6",
     description: "Defeat the Collector",
@@ -280,7 +280,7 @@ export const achievementsAPI: AchievementsProps[] = [
     ],
   },
   {
-    icon: "/achievements/Achievement_Peace.png",
+    icon: "/achievements/Achievement_Peace.webp",
     name: "DREAM_BROKEN_VESSEL",
     percent: "28.8",
     description: "Defeat the Lost Kin",
@@ -289,7 +289,7 @@ export const achievementsAPI: AchievementsProps[] = [
     location: ["Ancient Basin"],
   },
   {
-    icon: "/achievements/Achievement_Awakening.png",
+    icon: "/achievements/Achievement_Awakening.webp",
     name: "AWAKENING",
     percent: "28.4",
     description: "Collect 1800 Essence and awaken the Dream Nail",
@@ -298,7 +298,7 @@ export const achievementsAPI: AchievementsProps[] = [
     location: [],
   },
   {
-    icon: "/achievements/Achievement_Rivalry.png",
+    icon: "/achievements/Achievement_Rivalry.webp",
     name: "ZOTE",
     percent: "27.5",
     description: "Defeat Zote in the Colosseum of Fools.",
@@ -307,7 +307,7 @@ export const achievementsAPI: AchievementsProps[] = [
     location: ["Kingdom's Edge"],
   },
   {
-    icon: "/achievements/Achievement_Strength.png",
+    icon: "/achievements/Achievement_Strength.webp",
     name: "DREAM_FK",
     percent: "25.0",
     description: "Defeat the Failed Champion.",
@@ -316,7 +316,7 @@ export const achievementsAPI: AchievementsProps[] = [
     location: ["Forgotten Crossroads"],
   },
   {
-    icon: "/achievements/Achievement_Grand_Performance.png",
+    icon: "/achievements/Achievement_Grand_Performance.webp",
     name: "GRIMM",
     percent: "24.9",
     description: "Defeat Grimm.",
@@ -325,7 +325,7 @@ export const achievementsAPI: AchievementsProps[] = [
     location: ["Howling Cliffs"],
   },
   {
-    icon: "/achievements/Achievement_Metamorphosis.png",
+    icon: "/achievements/Achievement_Metamorphosis.webp",
     name: "METAMORPHOSIS",
     percent: "24.8",
     description: "Rescue all of the imprisoned grubs",
@@ -334,7 +334,7 @@ export const achievementsAPI: AchievementsProps[] = [
     location: [],
   },
   {
-    icon: "/achievements/Achievement_Void.png",
+    icon: "/achievements/Achievement_Void.webp",
     name: "VOID",
     percent: "24.2",
     description: "Remember the past and unite the Abyss.",
@@ -343,7 +343,7 @@ export const achievementsAPI: AchievementsProps[] = [
     location: ["Queen's Garden", "Ancient Basin"],
   },
   {
-    icon: "/achievements/Achievement_Worldsoul.png",
+    icon: "/achievements/Achievement_Worldsoul.webp",
     name: "WORLDSOUL",
     percent: "24.0",
     description: "Acquire all Vessel Fragments.",
@@ -362,7 +362,7 @@ export const achievementsAPI: AchievementsProps[] = [
     ],
   },
   {
-    icon: "/achievements/Achievement_Witness.png",
+    icon: "/achievements/Achievement_Witness.webp",
     name: "QUIRREL_EPILOGUE",
     percent: "23.4",
     description: "Spend a final moment with Quirrel.",
@@ -371,7 +371,7 @@ export const achievementsAPI: AchievementsProps[] = [
     location: ["Fog Canyon"],
   },
   {
-    icon: "/achievements/Achievement_Mortality.png",
+    icon: "/achievements/Achievement_Mortality.webp",
     name: "DREAM_SOUL_MASTER_DEFEAT",
     percent: "22.6",
     description: "Defeat the Soul Tyrant.",
@@ -380,7 +380,7 @@ export const achievementsAPI: AchievementsProps[] = [
     location: ["City of Tears"],
   },
   {
-    icon: "/achievements/Achievement_The_Hollow_Knight.png",
+    icon: "/achievements/Achievement_The_Hollow_Knight.webp",
     name: "ENDING_A",
     percent: "22.1",
     description: "Defeat the Hollow Knight.",
@@ -389,7 +389,7 @@ export const achievementsAPI: AchievementsProps[] = [
     location: ["Temple of the Black Egg"],
   },
   {
-    icon: "/achievements/Achievement_Dark_Romance.png",
+    icon: "/achievements/Achievement_Dark_Romance.webp",
     name: "GREY_PRINCE",
     percent: "20.5",
     description: "Defeat Grey Prince Zote.",
@@ -398,7 +398,7 @@ export const achievementsAPI: AchievementsProps[] = [
     location: ["Dirtmouth (Bretta's House)"],
   },
   {
-    icon: "/achievements/Achievement_Solace.png",
+    icon: "/achievements/Achievement_Solace.webp",
     name: "MOURNER",
     percent: "19.9",
     description: "Bring peace to the Grey Mourner.",
@@ -407,7 +407,7 @@ export const achievementsAPI: AchievementsProps[] = [
     location: ["Queen's Gardens"],
   },
   {
-    icon: "/achievements/Achievement_Blessed.png",
+    icon: "/achievements/Achievement_Blessed.webp",
     name: "BLESSED",
     percent: "19.3",
     description: "Acquire all Charms and receive Salubra's blessing",
@@ -416,7 +416,7 @@ export const achievementsAPI: AchievementsProps[] = [
     location: [],
   },
   {
-    icon: "/achievements/Achievement_Ascension.png",
+    icon: "/achievements/Achievement_Ascension.webp",
     name: "ASCENSION",
     percent: "19.1",
     description: "Collect 2400 Essence and hear the Seer's final words",
@@ -425,7 +425,7 @@ export const achievementsAPI: AchievementsProps[] = [
     location: [],
   },
   {
-    icon: "/achievements/Achievement_Masked.png",
+    icon: "/achievements/Achievement_Masked.webp",
     name: "MASKED",
     percent: "19.0",
     description: "Acquire all Mask Shards",
@@ -443,7 +443,7 @@ export const achievementsAPI: AchievementsProps[] = [
     ],
   },
   {
-    icon: "/achievements/Achievement_Fool.png",
+    icon: "/achievements/Achievement_Fool.webp",
     name: "COLOSSEUM_3",
     percent: "18.7",
     description: "Complete the Trial of the Fool.",
@@ -452,7 +452,7 @@ export const achievementsAPI: AchievementsProps[] = [
     location: ["Kingdom's Edge"],
   },
   {
-    icon: "/achievements/Achievement_Dream_No_More.png",
+    icon: "/achievements/Achievement_Dream_No_More.webp",
     name: "ENDING_C",
     percent: "18.2",
     description: "Defeat the Radiance and consume the light",
@@ -461,7 +461,7 @@ export const achievementsAPI: AchievementsProps[] = [
     location: ["Temple of the Black Egg"],
   },
   {
-    icon: "/achievements/Achievement_Purity.png",
+    icon: "/achievements/Achievement_Purity.webp",
     name: "NAILSMITH_KILL",
     percent: "17.7",
     description: "Slay the Nailsmith with the Pure Nail",
@@ -470,7 +470,7 @@ export const achievementsAPI: AchievementsProps[] = [
     location: ["City of Tears"],
   },
   {
-    icon: "/achievements/Achievement_Completion.png",
+    icon: "/achievements/Achievement_Completion.webp",
     name: "COMPLETION",
     percent: "17.6",
     description: "Achieve 100% game completion and finish the game",
@@ -479,7 +479,7 @@ export const achievementsAPI: AchievementsProps[] = [
     location: ["Hallownest"],
   },
   {
-    icon: "/achievements/Achievement_Memory.png",
+    icon: "/achievements/Achievement_Memory.webp",
     name: "WHITE_DEFENDER",
     percent: "17.4",
     description: "Defeat White Defender.",
@@ -488,7 +488,7 @@ export const achievementsAPI: AchievementsProps[] = [
     location: ["Godhome (Royal Waterways)"],
   },
   {
-    icon: "/achievements/Achievement_Sealed_Siblings.png",
+    icon: "/achievements/Achievement_Sealed_Siblings.webp",
     name: "ENDING_B",
     percent: "17.4",
     description: "Defeat the Hollow Knight with Hornet by your side.",
@@ -497,7 +497,7 @@ export const achievementsAPI: AchievementsProps[] = [
     location: ["Temple of the Black Egg"],
   },
   {
-    icon: "/achievements/Achievement_Brotherhood.png",
+    icon: "/achievements/Achievement_Brotherhood.webp",
     name: "PANTHEON1",
     percent: "15.9",
     description: "Complete the Pantheon of the Master.",
@@ -506,7 +506,7 @@ export const achievementsAPI: AchievementsProps[] = [
     location: ["Godhome (Royal Waterways)"],
   },
   {
-    icon: "/achievements/Achievement_Inspiration.png",
+    icon: "/achievements/Achievement_Inspiration.webp",
     name: "PANTHEON2",
     percent: "15.0",
     description: "Complete the Pantheon of the Artist.",
@@ -515,7 +515,7 @@ export const achievementsAPI: AchievementsProps[] = [
     location: ["Godhome (Royal Waterways)"],
   },
   {
-    icon: "/achievements/Achievement_Ritual.png",
+    icon: "/achievements/Achievement_Ritual.webp",
     name: "NIGHTMARE_GRIMM",
     percent: "14.9",
     description: "Defeat the Nightmare King and complete the Ritual.",
@@ -524,7 +524,7 @@ export const achievementsAPI: AchievementsProps[] = [
     location: ["Grimm Troupe Tent (Howling Cliffs)"],
   },
   {
-    icon: "/achievements/Achievement_Focus.png",
+    icon: "/achievements/Achievement_Focus.webp",
     name: "PANTHEON3",
     percent: "11.0",
     description: "Complete the Pantheon of the Sage.",
@@ -533,7 +533,7 @@ export const achievementsAPI: AchievementsProps[] = [
     location: ["Godhome (Royal Waterways)"],
   },
   {
-    icon: "/achievements/Achievement_Happy_Couple.png",
+    icon: "/achievements/Achievement_Happy_Couple.webp",
     name: "NAILSMITH_SPARE",
     percent: "9.6",
     description: "Allow the Nailsmith to find a new calling.",
@@ -542,7 +542,7 @@ export const achievementsAPI: AchievementsProps[] = [
     location: ["City of Tears"],
   },
   {
-    icon: "/achievements/Achievement_Soul_and_Shade.png",
+    icon: "/achievements/Achievement_Soul_and_Shade.webp",
     name: "PANTHEON4",
     percent: "8.7",
     description: "Complete the Pantheon of the Knight.",
@@ -551,7 +551,7 @@ export const achievementsAPI: AchievementsProps[] = [
     location: ["Godhome (Royal Waterways)"],
   },
   {
-    icon: "/achievements/Achievement_Banishment.png",
+    icon: "/achievements/Achievement_Banishment.webp",
     name: "BANISHMENT",
     percent: "7.6",
     description: "Banish the Grimm Troupe.",
@@ -560,7 +560,7 @@ export const achievementsAPI: AchievementsProps[] = [
     location: ["Deepnest (Distant Village)"],
   },
   {
-    icon: "/achievements/Achievement_Keen_Hunter.png",
+    icon: "/achievements/Achievement_Keen_Hunter.webp",
     name: "HUNTER_1",
     percent: "7.2",
     description: "Record all of Hallownest's creatures in the Hunter's Journal.",
@@ -569,7 +569,7 @@ export const achievementsAPI: AchievementsProps[] = [
     location: ["Hallownest"],
   },
   {
-    icon: "/achievements/Achievement_Neglect.png",
+    icon: "/achievements/Achievement_Neglect.webp",
     name: "NEGLECT",
     percent: "7.2",
     description: "Leave Zote to die.",
@@ -578,7 +578,7 @@ export const achievementsAPI: AchievementsProps[] = [
     location: ["Greenpath", "City of Tears"],
   },
   {
-    icon: "/achievements/Achievement_True_Hunter.png",
+    icon: "/achievements/Achievement_True_Hunter.webp",
     name: "HUNTER_2",
     percent: "6.6",
     description: "Receive the Hunter's Mark.",
@@ -587,7 +587,7 @@ export const achievementsAPI: AchievementsProps[] = [
     location: ["Greenpath"],
   },
   {
-    icon: "/achievements/Achievement_Passing_of_the_Age.png",
+    icon: "/achievements/Achievement_Passing_of_the_Age.webp",
     name: "MR_MUSHROOM",
     percent: "6.4",
     description: "Aid the Herald in moving on. ",
@@ -604,7 +604,7 @@ export const achievementsAPI: AchievementsProps[] = [
     ],
   },
   {
-    icon: "/achievements/Achievement_Pure_Completion.png",
+    icon: "/achievements/Achievement_Pure_Completion.webp",
     name: "COMPLETIONGG",
     percent: "6.1",
     description: "Achieve 112% game completion.",
@@ -613,7 +613,7 @@ export const achievementsAPI: AchievementsProps[] = [
     location: ["Hallownest"],
   },
   {
-    icon: "/achievements/Achievement_Speedrun_1.png",
+    icon: "/achievements/Achievement_Speedrun_1.webp",
     name: "SPEEDRUN_1",
     percent: "5.9",
     description: "Complete the game in under 10 hours.",
@@ -622,7 +622,7 @@ export const achievementsAPI: AchievementsProps[] = [
     location: ["Temple of the Black Egg"],
   },
   {
-    icon: "/achievements/Achievement_Speed_Completion.png",
+    icon: "/achievements/Achievement_Speed_Completion.webp",
     name: "SPEED_COMPLETION",
     percent: "5.0",
     description: "Achieve 100% game completion and finish the game in under 20 hours.",
@@ -631,7 +631,7 @@ export const achievementsAPI: AchievementsProps[] = [
     location: ["Hallownest"],
   },
   {
-    icon: "/achievements/Achievement_Speedrun_2.png",
+    icon: "/achievements/Achievement_Speedrun_2.webp",
     name: "SPEEDRUN_2",
     percent: "4.9",
     description: "Complete the game in under 5 hours.",
@@ -640,7 +640,7 @@ export const achievementsAPI: AchievementsProps[] = [
     location: ["Temple of the Black Egg"],
   },
   {
-    icon: "/achievements/Achievement_Embrace_the_Void.png",
+    icon: "/achievements/Achievement_Embrace_the_Void.webp",
     name: "ENDINGD",
     percent: "4.7",
     description: "Ascend the Pantheon of Hallownest and take your place at its peak.",
@@ -649,7 +649,7 @@ export const achievementsAPI: AchievementsProps[] = [
     location: ["Godhome (Royal Waterways)"],
   },
   {
-    icon: "/achievements/Achievement_Steel_Soul.png",
+    icon: "/achievements/Achievement_Steel_Soul.webp",
     name: "STEELSOUL",
     percent: "4.2",
     description: "Finish the game in Steel Soul mode.",
@@ -658,7 +658,7 @@ export const achievementsAPI: AchievementsProps[] = [
     location: ["Temple of the Black Egg"],
   },
   {
-    icon: "/achievements/Achievement_Steel_Heart.png",
+    icon: "/achievements/Achievement_Steel_Heart.webp",
     name: "STEELSOUL_COMPLETION",
     percent: "3.5",
     description: "Achieve 100% game completion and finish the game in Steel Soul mode.",
